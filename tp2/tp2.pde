@@ -17,8 +17,8 @@ void setup() {
   Imagen2 = loadImage("Imagen2.jpg");
   Imagen3 = loadImage("Imagen3.jpg");
   Titulo = "Las superautopistas electrónicas \n                         de \n               Nam June Paik";
-  Texto1 = "Electronic Superhighway:\nContinental US, Alaska, Hawaii (1995)\n es una instalación del artista\ncoreano/americano Nam June Paik\nubicada en el \nAmerican Art Museum de Washington DC,\nque se ha convertido en un icono\nde todo el mundo artístico en la era de la\ncomunicación cibernética.";
-  Texto2 = "Es considerada una de las obras maestras de\n Paik y es realmente abrumadora y contundente. \nLa obra, de gran dimensión, consta de \ncincuenta y un canales de \nvideoinstalación electrónica personalizada \n(incluida una transmisión de \ntelevisión en circuito cerrado), \nluces de neón, acero y madera, color y sonido. \nEl artista la regaló al museo.";
+  Texto1 = "Electronic Superhighway:\nContinental US, Alaska, Hawaii (1995)\n es una instalación del artista\ncoreano/americano Nam June Paik\nubicada en el American Art Museum \nde Washington DC, que se ha convertido \nen un icono de todo el mundo artístico \nen la era de la comunicación cibernética.";
+  Texto2 = "Es considerada una de las obras maestras de\n Paik y es realmente abrumadora y contundente. \nLa obra, de gran dimensión, consta de \ncincuenta y un canales de videoinstalación\n electrónica personalizada (incluida una \ntransmisión de televisión en circuito cerrado), \nluces de neón, acero y madera, color y sonido. \nEl artista la regaló al museo.";
   
   FuenteTitulo = loadFont("ArialNarrow.vlw");
   textFont(FuenteTitulo);
