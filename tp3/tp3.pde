@@ -1,5 +1,7 @@
 /* 
-link del video: https://youtu.be/gdCRDROMmUk
+links del video: https://youtu.be/gdCRDROMmUk
+https://www.youtube.com/watch?v=gdCRDROMmUk&ab_channel=Manu_Z17
+(se recomienda usar auris xd)
 Alumno: Manuel Zuccato
 Legajo: 121285/2
 Comision 3
