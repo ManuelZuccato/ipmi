@@ -7,8 +7,8 @@ TP3
 
 //VARIABLES
 PImage grilla;
-float ladoCuadro;
-float espacioEntreCuadros;
+float radioCirculo;
+float espacioEntreCirculos;
 color[][] coloresCirculos; // Arreglo para almacenar colores de los círculos
 color colorGris = color(120); // Color gris para los círculos
 color colorFondo = color(210, 10, 10); // Color de fondo original
@@ -16,8 +16,8 @@ color colorFondo = color(210, 10, 10); // Color de fondo original
 void setup() {
   size(800, 400);
   cargarImagen(); // Función para cargar la imagen de la grilla de círculos
-  ladoCuadro = width / 25; // Tamaño del lado de cada círculo
-  espacioEntreCuadros = ladoCuadro * 1.8; // Espacio entre círculos
+  radioCirculo = width / 25; // Tamaño del radio de cada círculo
+  espacioEntreCirculos = radioCirculo * 1.8; // Espacio entre círculos
   reiniciarPrograma(); // Llamar a la función para reiniciar variables al inicio
 }
 
@@ -44,10 +44,10 @@ void dibujarCirculos() {
   // Bucle para dibujar los círculos
   for (int i = 0; i < 7; i++) {
     for (int j = 0; j < 7; j++) {
-      float x = width / 1.9 + j * espacioEntreCuadros; // Coordenada x del centro del círculo
-      float y = i * espacioEntreCuadros + espacioEntreCuadros / 2; // Coordenada y del centro del círculo
+      float x = width / 1.9 + j * espacioEntreCirculos; // Coordenada x del centro del círculo
+      float y = i * espacioEntreCirculos + espacioEntreCirculos / 2; // Coordenada y del centro del círculo
       stroke(coloresCirculos[i][j]); // Color del borde según el arreglo de colores
-      ellipse(x, y, ladoCuadro, ladoCuadro); // Dibujar el círculo
+      ellipse(x, y, radioCirculo, radioCirculo); // Dibujar el círculo
     }
   }
 }
